@@ -1,69 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-@font-face {
-    font-family: 'muliblack';
-    src: url('../fonts/muli-black.woff2') format('woff2'),
-         url('../fonts/muli-black.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'muliblack_italic';
-    src: url('../fonts/muli-blackitalic.woff2') format('woff2'),
-         url('../fonts/muli-blackitalic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'mulibold';
-    src: url('../fonts/muli-bold.woff2') format('woff2'),
-         url('../fonts/muli-bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'mulisemibold';
-    src: url('../fonts/muli-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/muli-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'mulilight';
-    src: url('../fonts/muli-light-webfont.woff2') format('woff2'),
-         url('../fonts/muli-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'poppinsregular';
-    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
-         url('../fonts/poppins-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'robotoregular';
-    src: url('../fonts/roboto-regular-webfont.eot');
-    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-regular-webfont.woff') format('woff'),
-         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
-         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;  font-style: normal;
-}
+@font-face {font-family: 'muliblack';src: url('../fonts/muli-black.woff2') format('woff2');font-weight: normal;font-style: normal;font-display:swap;}
+@font-face {font-family: 'muliblack_italic';src: url('../fonts/muli-blackitalic.woff2') format('woff2');font-weight: normal;font-style: normal;font-display:swap;}
+@font-face {font-family: 'mulibold';src: url('../fonts/muli-bold.woff2') format('woff2');font-weight: normal;font-style: normal;font-display:swap;}
+@font-face {font-family: 'mulisemibold';src: url('../fonts/muli-semibold-webfont.woff2') format('woff2');font-weight: normal;font-style: normal;font-display:swap;}
+@font-face {font-family: 'mulilight';src: url('../fonts/muli-light-webfont.woff2') format('woff2');font-weight: normal;font-style: normal;font-display:swap;}
+@font-face{font-family: 'poppinsregular';src: url('../fonts/poppins-regular-webfont.woff2') format('woff2');font-weight: normal;font-style: normal;font-display:swap;}
+@font-face{font-family: 'robotoregular';src: url('../fonts/roboto-regular-webfont.woff2') format('woff2');font-weight: normal;  font-style: normal;font-display:swap;}
 a,a:link,a:visited{transition:0.3s ease;}
 h1,h2,h3,h4,p,a,h6{margin:0;}
 header{position:absolute;z-index:1;background-color:transparent;display:inline-block;width:100%;}
