@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 16" width="19" height="16">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-946 -3887L420 -3887L420 197L-946 197Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #fafafa } 
+	</style>
+	<g id="Haley Premium – 2" clip-path="url(#cp1)">
+		<g id="Group 3164">
+			<g id="Group 3162">
+				<path id="mail" class="shp0" d="M9.43 7.76L18.87 3.31L18.87 1L0 1L0 3.3L9.43 7.76ZM9.44 10.36L0 5.91L0 15.15L18.87 15.15L18.87 5.92L9.44 10.36Z" />
+			</g>
+		</g>
+	</g>
+</svg>

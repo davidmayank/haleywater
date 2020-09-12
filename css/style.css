@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+a,a:link,a:visited{transition:0.3s ease;}
+h1,h2,h3,h4,p,a,h6{margin:0;}
+header{position:absolute;z-index:1;background-color:transparent;display:inline-block;width:100%;}
+.top-header{background-color:#e30a7d;border:1px solid #707070;max-height:55px;}
+.top-headr{padding:17px 0 20px;margin-bottom:0;display:inline-block;	}
+.top-headr li{width:auto;display:inline-block;margin-right:33px;background:url(../images/svg/phone.svg) left center no-repeat;padding-left:30px;}
+.top-headr li:nth-of-type(2){background:url(../images/svg/mail.svg) left center no-repeat;padding-left:30px;}
+.top-headr li a{font:14px/15px 'mulilight';color:#fff;}
+.rght{padding:15px 0 20px;}
+.rght li{width:auto;float:left;margin-right:17px;}
+.navbar-brand {height: auto;padding: 0px;}
+.bottom-header li{width:auto;display:inline-block;margin-right:45px;padding:0;}
+.bottom-header li:last-of-type{margin-right:0;}
+.bottom-header li a,.bottom-header li a:link,.bottom-header li a:visited{font:16px/50px 'mulibold';color:#000;transition:0.3s ease;text-transform:capitalize;}
+.bottom-header li a:hover,.bottom-header li a:focus,.bottom-header li a:active{background-color:transparent;color:#e3097d;}
+.bottom-header.navbar-nav > li > a{padding:0;}
+.btm-head{margin-top:10px;}
+.bottom-header.navbar-nav > li.cntct > a{color:#fff;text-align:center;border-radius:25px;background-color:#e30a7d;padding:0px 35px;border:1px solid #e30a7d;}
+.bottom-header.navbar-nav > li.cntct > a:hover{color:#e30a7d; background-color:#fff;}
+
+.banner-sec, .carousel-inner{height:100vh;}
+.banner-sec .carousel-inner img{object-fit:cover;width:100%;}
+.banner-sec .carousel-indicators li{border:2px solid #e30a7d;width:16px;height:16px;margin:0px 3px;}
+.banner-sec .carousel-indicators li.active{background:#e30a7d}
+.overlay{position:absolute;z-index:1;width:100%;top:50%;transform:translateY(-50%);}
+.banner-content h2{font:60px/75px 'muliblack';color:#000;}
+.banner-content h2 span{color:#e30a7d;}
+.banner-content p{font:20px/30px 'robotoregular';color:#000;margin:30px 0 55px;}
+.banner-content a.btn{border-radius:25px;background-color:#e30a7d;color:#fff;font:16px/50px 'mulisemibold';padding:0px 15px;}
+.banner-content a.btn:hover{background-color:#fff;color:#e30a7d;}
+a.btn{width:164px !important;height:50px;border-radius:25px;background-color:#e30a7d;color:#fff;font:16px/17px 'mulisemibold';padding:15px 0;}
+.banner-sec2{padding:100px 0px;}
+.banner-sec2 .banner-content h4{font:36px/40px  'mulisemibold';color:#000;position:relative;margin:0px 0px 50px;}
+.banner-sec2 .banner-content h4:after{content:" ";border-bottom:3px solid #e30a7d;width:67px;height:3px;margin:10px 0 0px;display:inline-block;position:absolute;bottom:-20px;left:0px;}
+.banner-sec2 .banner-content p{font:20px/37px  'robotoregular';color:#7a7373;margin-top:10px;}
+.banner-sec2 .banner-content{padding:0px 0px 55px 0;}
+
+.blog{background-color:#f8f8f8;padding:110px 0;}
+.blog .banner-content h4 , .value .banner-content h4 , .slidr .banner-content h4{font:36px/40px  'mulisemibold';color:#000;position:relative;margin:0px 0px 70px;}
+.blog .banner-content h4:after , .value .banner-content h4:after , .slidr .banner-content h4:after{content:" ";border-bottom:3px solid #e30a7d;width:67px;height:3px;display:inline-block;position:absolute;top:0px;right:0;left:0;bottom:0;margin:50px auto;}
+.blog-sec{margin-top:80px;}
+.blog-sec a,.blog-sec a:link,.blog-sec a:visited{min-width:212px;background-color:#fff;text-align:center;filter: drop-shadow(0px 3px 31.5px rgba(0,0,0,0.15));background-color: #ffffff;border-bottom:3px solid #e30a7d;display:inline-block;position:relative;}
+.blog-sec a figure{padding:16px 0 20px;}
+.abslt{position:absolute;width:100%;height:0;left:0;bottom:0;overflow:hidden;}
+.blog-sec a:hover .abslt{background-color:#e30a7d;opacity:0.7;width:100%;height:263px;position:absolute;}
+.blg-content{margin-top:20px;}
+.blg-content p{font:20px/22px  'mulisemibold';color:#000;margin-bottom:20px;}
+.blg-content a,.blg-content a:link,.blg-content a:visited{font:16px/18px  'mulisemibold';color:#e54298;background-color:transparent;border-bottom:none;text-align:left;width:auto;display:inline-block;}
+.blg-content a span{background:url(../images/svg/arrow-right.svg) right center no-repeat;width:15px;height:13px;float:right;position:relative;left:-85px;top:5px;}
+.value{padding:110px 0;}
+.val-contnt{margin-top:35px;}
+.val-contnt h5{font:22px/24px  'mulisemibold';color:#000;margin-bottom:30px;}
+.val-contnt p{font:20px/30px  'robotoregular';color:#000;}
+
+.counter-section{background:url(../images/counter-img.png) left top no-repeat;background-size:cover;padding:95px 0;} 
+.counter-count{font:45px/24px  'mulisemibold';color:#fff;margin-bottom:30px;display:inline-block;}
+.counter-section p{font:22px/30px  'robotoregular';color:#fff;}
+.counter-section figure{margin:40px 0px 30px;}
+
+.slidr{background-color:#fff;padding:110px 0;}
+.slidr .col-md-3{min-height:161px;}
+.slidr figure{filter: drop-shadow(0px 3px 31.5px rgba(0,0,0,0.15));background-color: #ffffff;padding:30px 10px;}
+.clients{margin-top:50px;}
+.client-carousel img{object-fit:none;}
+
+
+footer{background-color:#000;padding:100px 0 0;}
+.ft-menu h6 , .ft-menu p , .ft-menu a,.ft-menu a:link,.ft-menu a:visited{font:20px/28px  'mulisemibold';color:#fff;margin-bottom:30px;display:inline-block;}
+.ft-menu h6:after{content:" ";border-bottom:3px solid #fff;width:67px;height:3px;display:inline-block;position:absolute;left:16px;top:40px;}
+.ft-menu a:hover,.ft-menu a:focus,.ft-menu a:active{color:#e30a7d;text-decoration:none;}
+.icn ul li:nth-of-type(1){background:url(../images/svg/mapmarker.svg) left top 7px no-repeat;padding-left:30px;}
+.icn ul li:nth-of-type(2){background:url(../images/svg/phone2.svg) left top 7px no-repeat;padding-left:30px;}
+.icn ul li:nth-of-type(3){background:url(../images/svg/mail2.svg) left top 7px no-repeat;padding-left:30px;}
+.icon li{width:auto;float:left;margin-right:15px;}
+.btm-ftr{background-color:#130b0b;padding:20px 0;}
+.btm-ftr p{font:12px/14px  'mulilight';color:#fff;}
+footer .shp1{fill:#000;}
+.top-header .shp1{fill:#e30a7d !important;}
+
+/* inner pages  */
+.height-auto{height:auto;}
+.position-relative{position:relative;}
+.inner-page-banner{background:url(../images/innerpagebanner.jpg)no-repeat center;background-size:cover;}
+.inner-page-banner h1{font:50px/282px 'muliblack';color:#fff;text-align:center;}
+@font-face {
+    font-family: 'muliblack';
+    src: url('../fonts/muli-black.woff2') format('woff2'),
+         url('../fonts/muli-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliblack_italic';
+    src: url('../fonts/muli-blackitalic.woff2') format('woff2'),
+         url('../fonts/muli-blackitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('../fonts/muli-bold.woff2') format('woff2'),
+         url('../fonts/muli-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url('../fonts/muli-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/muli-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mulilight';
+    src: url('../fonts/muli-light-webfont.woff2') format('woff2'),
+         url('../fonts/muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;  font-style: normal;
+}

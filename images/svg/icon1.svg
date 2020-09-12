@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 25" width="26" height="25">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-113 -3912L1253 -3912L1253 172L-113 172Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #fafafa } 
+	</style>
+	<g id="Haley Premium – 2" clip-path="url(#cp1)">
+		<g id="Group 3167">
+			<g id="Group 3160">
+				<path id="facebook" class="shp0" d="M22.76 0L3.72 0C2.22 0 1 1.22 1 2.72L1 21.76C1 23.26 2.22 24.48 3.72 24.48L13.24 24.48L13.24 14.96L10.52 14.96L10.52 11.59L13.24 11.59L13.24 8.81C13.24 5.86 14.89 3.8 18.36 3.8L20.82 3.8L20.82 7.34L19.19 7.34C17.84 7.34 17.32 8.36 17.32 9.3L17.32 11.6L20.81 11.6L20.04 14.96L17.32 14.96L17.32 24.48L22.76 24.48C24.26 24.48 25.48 23.26 25.48 21.76L25.48 2.72C25.48 1.22 24.26 0 22.76 0L22.76 0Z" />
+			</g>
+		</g>
+	</g>
+</svg>

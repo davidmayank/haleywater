@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 13" width="15" height="13">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-229 -1876L1137 -1876L1137 2208L-229 2208Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #e54298 } 
+	</style>
+	<g id="Haley Premium – 2" clip-path="url(#cp1)">
+		<g id="Group 3138">
+			<g id="Group 3137">
+				<g id="Group 21">
+					<g id="Group 20">
+						<path id="arrow-right2" class="shp0" d="M9.32 12.31L14.57 7.05C14.99 6.64 14.99 5.98 14.57 5.57L9.32 0.31C8.91 -0.1 8.24 -0.1 7.83 0.31C7.42 0.72 7.42 1.38 7.83 1.79L11.29 5.26L1.21 5.26C0.63 5.26 0.16 5.73 0.16 6.31C0.16 6.89 0.63 7.36 1.21 7.36L11.29 7.36L7.83 10.82C7.63 11.03 7.52 11.3 7.52 11.57C7.52 11.83 7.62 12.1 7.83 12.31C8.24 12.72 8.91 12.72 9.32 12.31L9.32 12.31Z" />
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
