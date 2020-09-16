@@ -40,8 +40,8 @@ header{position:absolute;z-index:1;background-color:transparent;display:inline-b
 .banner-content a.btn:hover{background-color:#fff;color:#e30a7d;}
 a.btn{width:164px !important;height:50px;border-radius:25px;background-color:#e30a7d;color:#fff;font:16px/17px 'mulisemibold';padding:15px 0;}
 .banner-sec2{padding:100px 0px;}
-.banner-sec2 .banner-content h4{font:36px/40px  'mulisemibold';color:#000;position:relative;margin:0px 0px 50px;}
-.banner-sec2 .banner-content h4:after{content:" ";border-bottom:3px solid #e30a7d;width:67px;height:3px;margin:10px 0 0px;display:inline-block;position:absolute;bottom:-20px;left:0px;}
+.banner-sec2 h4, .banner-sec2 .banner-content h4{font:36px/40px  'mulisemibold';color:#000;position:relative;margin:0px 0px 50px;}
+.banner-sec2 h4:after,.banner-sec2 .banner-content h4:after{content:" ";border-bottom:3px solid #e30a7d;width:67px;height:3px;margin:10px 0 0px;display:inline-block;position:absolute;bottom:-20px;left:0px;}
 .banner-sec2 .banner-content p{font:20px/37px  'robotoregular';color:#7a7373;margin-top:10px;}
 .banner-sec2 .banner-content{padding:0px 0px 55px 0;}
 
@@ -100,7 +100,10 @@ form.default-form .form-control{height:auto;border:1px solid #F3EFEF;border-radi
 form.default-form .form-group {margin-bottom: 30px;}
 form.default-form .btn-style-one{border-radius:30px;background:#E30A7D;border:1px solid #E30A7D;color:#fff;font:16px/24px 'mulilight';padding:15px 30px;}
 form.default-form .btn-style-one:hover{background:#FFF;border:1px solid #E30A7D;color:#E30A7D;font:16px/24px 'mulilight';padding:15px 30px;}
-
+.image-text-sec{display:flex;margin:0px 0px 30px;}
+.image-text-sec img {margin:0px 44px 0px 0px;}
+.image-text-sec p,.image-text-sec p a, .image-text-sec p a:link{font:20px/52px 'robotoregular';color:#7A7373; }
+.image-text-sec p:hover,.image-text-sec p a:hover, .image-text-sec p a:focus{font:20px/52px 'robotoregular';color:#E30A7D; }
 @media only screen and (max-width:991px) {
   .bottom-header li {margin-right:20px;}
   .bottom-header li a, .bottom-header li a:link, .bottom-header li a:visited {font: 14px/40px 'mulibold';}
