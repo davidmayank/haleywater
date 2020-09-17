@@ -126,7 +126,7 @@ header {position:relative;}
 .banner-content p {font: 16px/20px 'robotoregular';margin:0px 0px 0px;}
 .banner-content a.btn {font: 14px/16px 'mulisemibold';padding:8px 15px;height: auto;}
 .banner-sec .carousel-indicators li {border: 1px solid #e30a7d;width: 10px;height: 10px;margin: 0px 0px;}
-.banner-sec2 .banner-content h4, .blog .banner-content h4, .value .banner-content h4, .slidr .banner-content h4 {font: 20px/24px 'mulisemibold';margin:10px 0px 50px;}
+.banner-sec2 h4,.banner-sec2 .banner-content h4, .blog .banner-content h4, .value .banner-content h4, .slidr .banner-content h4 {font: 20px/24px 'mulisemibold';margin:10px 0px 50px;}
 .banner-sec2 .banner-content{padding-bottom:0px;}
 .banner-sec2 .banner-content p {font: 16px/20px 'robotoregular';margin-top: 10px;}
 
@@ -139,6 +139,8 @@ footer{padding: 40px 0 0;}
 .icn ul li:nth-of-type(1){background:url(../images/svg/mapmarker.svg) left center no-repeat;background-size:contain;}
 .icn ul li:nth-of-type(2){background:url(../images/svg/phone2.svg) left center no-repeat;background-size:contain;}
 .icn ul li:nth-of-type(3){background:url(../images/svg/mail2.svg) left center no-repeat;background-size:contain;}
+.image-text-sec img {margin: 0px 16px 0px 0px; width: 40px;height: 40px;}
+.image-text-sec p, .image-text-sec p a, .image-text-sec p a:link {font: 16px/40px 'robotoregular';}
 .inner-page-banner h1 {
     font: 36px/40px 'muliblack';
     color: #fff;
